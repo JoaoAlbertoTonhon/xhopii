@@ -225,7 +225,232 @@ body {
 
 
 
+.centro-conteudo {
+    background-color: #f5f5f5;
+    padding: 20px;
+    min-height: 80vh;
+}
 
+.banner-loja {
+    background-color: #333;
+    color: #fff;
+    max-width: 1200px;
+    margin: 0 auto 20px;
+    padding: 20px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.perfil-loja {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.avatar-loja img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #ee4d2d;
+    background-color: #fff;
+}
+
+.info-loja h2 {
+    margin: 0 0 5px 0;
+    font-size: 20px;
+}
+
+.info-loja p {
+    margin: 0 0 10px 0;
+    font-size: 12px;
+    color: #ccc;
+}
+
+.botoes-loja {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-seguir, .btn-chat {
+    padding: 5px 15px;
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.btn-seguir {
+    background-color: #ee4d2d;
+    border-color: #ee4d2d;
+}
+
+.estatisticas-loja {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 30px;
+    font-size: 14px;
+    color: #eee;
+}
+
+.secao-produtos-loja {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.secao-produtos-loja h3 {
+    color: #333;
+    border-bottom: 2px solid #ee4d2d;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.grade-produtos {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.cartao-produto {
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 2px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.cartao-produto:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.cartao-produto img {
+    width: 100%;
+    height: auto;
+}
+
+.nome-produto {
+    font-size: 12px;
+    color: #333;
+    margin: 10px 0;
+    height: 34px;
+    overflow: hidden;
+}
+
+.preco-produto {
+    color: #ee4d2d;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.btn-comprar {
+    width: 100%;
+    background-color: #ee4d2d;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 2px;
+    display: block; 
+    text-align: center; 
+    text-decoration: none; 
+    box-sizing: border-box;
+}
+
+.container-cupons {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.container-cupons h2 {
+    font-size: 18px;
+    color: #333;
+    margin-top: 0;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 15px;
+}
+
+.lista-cupons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.cartao-cupom {
+    display: flex;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    height: 100px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.cupom-esquerda {
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    border-right: 2px dashed #fff; 
+}
+
+.frete-gratis {
+    background-color: #00bfa5; 
+}
+
+.desconto-fixo {
+    background-color: #ee4d2d; 
+}
+
+.cupom-esquerda img {
+    width: 30px;
+    margin-bottom: 5px;
+    filter: brightness(0) invert(1); 
+}
+
+.cupom-direita {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.texto-cupom h4 {
+    margin: 0 0 5px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.texto-cupom p {
+    margin: 0;
+    font-size: 12px;
+    color: #999;
+}
+
+.btn-usar-cupom {
+    background-color: #ee4d2d;
+    color: #fff;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 2px;
+    cursor: pointer;
+    font-weight: bold;
+}
 
 
 
