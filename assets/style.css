@@ -1,0 +1,96 @@
+.rodape {
+    background-color: #fbfbfb;
+    padding: 40px 20px 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    border-top: 4px solid #ee4d2d; 
+}
+
+/* 1. Uso obrigatório de Grid Layout */
+.container-rodape {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.secao-rodape h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.secao-rodape ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.secao-rodape ul li {
+    margin-bottom: 12px;
+}
+
+.secao-rodape ul li a {
+    text-decoration: none;
+    color: #666;
+    font-size: 12px;
+    display: flex; 
+    align-items: center;
+    gap: 8px;
+}
+
+.secao-rodape ul li a:hover {
+    color: #ee4d2d;
+}
+
+.redes-sociais img {
+    width: 16px;
+    height: 16px;
+}
+
+.icones-pagamento {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 8px;
+    max-width: 200px; 
+}
+
+.icones-pagamento img {
+    width: 50px;
+    height: auto;
+    background-color: #fff;
+    padding: 4px;
+    border-radius: 2px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1); 
+}
+
+.codigo-qr img {
+    width: 90px;
+    height: auto;
+    background-color: #fff;
+    padding: 4px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    margin-bottom: 10px;
+}
+
+.links-aplicativo {
+    display: flex;
+    flex-direction: column; 
+    gap: 8px;
+}
+
+.links-aplicativo img {
+    width: 90px;
+    height: auto;
+}
+
+.direitos-autorais {
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 40px;
+    border-top: 1px solid #e5e5e5;
+    font-size: 12px;
+    color: #999;
+}
