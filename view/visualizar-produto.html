@@ -5,11 +5,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/style.css">
-    <title>Xhoppi - Visualizar Produto </title>
+    <title>Xhopii - Visualizar Produto</title>
 </head>
 
 <body>
-    
+    <header class="cabecalho-sistema">
+        <div class="topo-laranja">
+            <div class="logo-area-branca">
+                <img src="../assets/img/logo.png" alt="Xhopii">
+                <span class="titulo-xhopii-branco">Xhopii</span>
+            </div>
+        </div>
+        <nav class="menu-cinza">
+            <a href="index.html">Home</a>
+            <a href="cadastro-cliente.html">Cadastro Cliente</a>
+            <a href="cadastro-funcionario.html">Cadastro Funcionário</a>
+            <a href="cadastro-produto.html">Cadastro Produto</a>
+            <a href="visualizar-clientes.html">Ver Clientes</a>
+            <a href="visualizar-funcionarios.html">Ver Funcionários</a>
+            <a href="visualizar-produtos.html">Ver Produtos</a>
+        </nav>
+    </header>
+    <main class="centro-produto">
+        <div class="container-detalhe-produto">
+            <div class="galeria-produto">
+                <div class="miniaturas">
+                    <img src="../assets/img/produto1.png" class="miniatura miniatura-ativa"
+                        onclick="trocarImagem(this, '../assets/img/produto1.png')">
+                    <img src="../assets/img/produto2.png" class="miniatura"
+                        onclick="trocarImagem(this, '../assets/img/produto2.png')">
+                    <img src="../assets/img/produto3.png" class="miniatura"
+                        onclick="trocarImagem(this, '../assets/img/produto3.png')">
+                    <img src="../assets/img/produto4.png" class="miniatura"
+                        onclick="trocarImagem(this, '../assets/img/produto4.png')">
+                    <img src="../assets/img/produto5.png" class="miniatura"
+                        onclick="trocarImagem(this, '../assets/img/produto5.png')">
+                </div>
+                <div class="imagem-destaque">
+                    <img id="imagem-principal" src="../assets/img/produto1.png" alt="Camisa CSS">
+                </div>
+            </div>
+
+            <div class="info-produto">
+                <h1>Camisa Desenvolvedor Front-End CSS</h1>
+                <p class="preco-destaque">R$56,90</p>
+                <p class="estoque">171 peças disponíveis</p>
+
+                <div class="secao-variacao">
+                    <p>Modelos:</p>
+                    <div class="opcoes-botoes">
+                        <button class="btn-opcao btn-modelo ativo"
+                            onclick="selecionarOpcao(this, 'modelo', 'Preto', '../assets/img/produto1.png')">Preto</button>
+                        <button class="btn-opcao btn-modelo"
+                            onclick="selecionarOpcao(this, 'modelo', 'Azul', '../assets/img/produto2.png')">Azul</button>
+                        <button class="btn-opcao btn-modelo"
+                            onclick="selecionarOpcao(this, 'modelo', 'Verde', '../assets/img/produto3.png')">Verde</button>
+                        <button class="btn-opcao btn-modelo"
+                            onclick="selecionarOpcao(this, 'modelo', 'Cinza', '../assets/img/produto4.png')">Cinza</button>
+                        <button class="btn-opcao btn-modelo"
+                            onclick="selecionarOpcao(this, 'modelo', 'Rosa', '../assets/img/produto5.png')">Rosa</button>
+                    </div>
+                </div>
+
+                <div class="secao-variacao">
+                    <p>Tamanhos:</p>
+                    <div class="opcoes-botoes">
+                        <button class="btn-opcao btn-tamanho ativo"
+                            onclick="selecionarOpcao(this, 'tamanho', 'P')">P</button>
+                        <button class="btn-opcao btn-tamanho" onclick="selecionarOpcao(this, 'tamanho', 'M')">M</button>
+                        <button class="btn-opcao btn-tamanho" onclick="selecionarOpcao(this, 'tamanho', 'G')">G</button>
+                        <button class="btn-opcao btn-tamanho"
+                            onclick="selecionarOpcao(this, 'tamanho', 'GG')">GG</button>
+                    </div>
+                </div>
+                <p id="texto-tamanho" class="tamanho-selecionado">Tamanho Selecionado: P</p>
+                <button class="btn-comprar-agora">Comprar Agora</button>
+            </div>
+        </div>
+    </main>
+    <script src="../assets/script.js"></script>
 </body>
 
 </html>

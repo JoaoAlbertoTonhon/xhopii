@@ -453,6 +453,172 @@ body {
 }
 
 
+.cabecalho-sistema {
+    width: 100%;
+}
+
+.topo-laranja {
+    background-color: #ee4d2d;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-area-branca {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-area-branca img {
+    width: 40px;
+}
+
+.titulo-xhopii-branco {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.link-sair {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.menu-cinza {
+    background-color: #e5e5e5;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.menu-cinza a {
+    color: #ee4d2d;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.menu-cinza a:hover {
+    text-decoration: underline;
+}
+
+.centro-produto {
+    background-color: #fff;
+    padding: 40px 20px;
+    min-height: 60vh;
+}
+
+.container-detalhe-produto {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto 1fr; 
+    gap: 50px;
+}
+
+.galeria-produto {
+    display: flex; 
+    gap: 15px;
+}
+
+.miniaturas {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.miniaturas img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border: 1px solid #e5e5e5;
+    cursor: pointer;
+}
+
+.miniaturas img.miniatura-ativa {
+    border: 2px solid #ee4d2d; 
+}
+
+.imagem-destaque img {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+}
+
+.info-produto h1 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 0;
+}
+
+.preco-destaque {
+    font-size: 28px;
+    color: #ee4d2d;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.estoque {
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 25px;
+}
+
+.secao-variacao {
+    margin-bottom: 25px;
+}
+
+.secao-variacao p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.opcoes-botoes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.btn-opcao {
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    padding: 8px 16px;
+    color: #333;
+    cursor: pointer;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+.btn-opcao.ativo {
+    border-color: #ee4d2d;
+    color: #ee4d2d;
+}
+
+.tamanho-selecionado {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.btn-comprar-agora {
+    background-color: #ee4d2d;
+    color: #fff;
+    border: none;
+    padding: 15px 40px;
+    font-size: 14px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.btn-comprar-agora:hover {
+    opacity: 0.9;
+}
 
 
 
