@@ -485,6 +485,7 @@ body {
     color: #fff;
     text-decoration: none;
     font-size: 14px;
+    font-weight: bold;
 }
 
 .menu-cinza {
@@ -503,6 +504,23 @@ body {
 }
 
 .menu-cinza a:hover {
+    text-decoration: underline;
+}
+
+.menu-laranja {
+    background-color: #ff7337; 
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.menu-laranja a {
+    color: #fff; 
+    text-decoration: none;
+    font-size: 14px;
+}
+.menu-laranja a:hover {
     text-decoration: underline;
 }
 
@@ -620,11 +638,177 @@ body {
     opacity: 0.9;
 }
 
+.centro-listagem {
+    background-color: #f5f5f5;
+    padding: 40px 20px;
+    min-height: 60vh;
+}
 
+.container-tabela {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
 
+.container-tabela h2 {
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ee4d2d;
+    padding-bottom: 10px;
+    display: inline-block;
+}
 
+.grid-tabela {
+    display: grid;
+    width: 100%;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    overflow: hidden;
+}
 
+.linha-cabecalho {
+    display: grid;
+    background-color: #ee4d2d;
+    color: #fff;
+    font-weight: bold;
+    padding: 15px;
+    font-size: 14px;
+}
 
+.linha-dados {
+    display: grid;
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #fff;
+    align-items: center;
+    color: #555;
+    font-size: 14px;
+    transition: background-color 0.2s;
+}
+
+.linha-dados:hover {
+    background-color: #fbfbfb;
+}
+
+.colunas-clientes { grid-template-columns: 2fr 2fr 1fr 1fr 1fr; gap: 15px; }
+.colunas-funcionarios { grid-template-columns: 2fr 2fr 2fr 1fr; gap: 15px; }
+.colunas-produtos { grid-template-columns: 80px 3fr 1fr 1fr 1fr; gap: 15px; }
+
+.miniatura-tabela {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border: 1px solid #e5e5e5;
+    border-radius: 2px;
+}
+
+.acoes-tabela {
+    display: flex; 
+    gap: 8px;
+}
+
+.btn-acao {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn-editar { background-color: #0055b3; }
+.btn-excluir { background-color: #ee4d2d; }
+
+.centro-vitrine {
+    background-color: #e5e5e5; 
+    min-height: 60vh;
+}
+
+.container-vitrine {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fbfbfb; 
+    padding: 30px;
+}
+
+.titulo-vitrine {
+    text-align: center;
+    color: #ee4d2d;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.grelha-vitrine {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+}
+
+.cartao-vitrine {
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    transition: border-color 0.2s;
+    cursor: pointer;
+}
+
+.cartao-vitrine:hover {
+    border: 1px solid #ee4d2d; 
+}
+
+.cartao-vitrine img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.vitrine-nome {
+    font-size: 12px;
+    color: #333;
+    margin: 0 0 10px 0;
+    line-height: 1.4;
+}
+
+.vitrine-fabricante, .vitrine-descricao {
+    font-size: 10px;
+    color: #999;
+    margin: 0 0 8px 0;
+    line-height: 1.4;
+}
+
+.vitrine-fabricante strong, .vitrine-descricao strong {
+    color: #666;
+    font-weight: normal;
+}
+
+.vitrine-rodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto; 
+    padding-top: 10px;
+}
+
+.vitrine-preco {
+    color: #ee4d2d;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.vitrine-stock {
+    color: #ccc;
+    font-size: 10px;
+}
 
 
 
@@ -652,7 +836,6 @@ body {
     color: #333;
 }
 
-/* 1. Uso obrigatório de Grid Layout */
 .container-rodape {
     display: grid;
     grid-template-columns: repeat(5, 1fr); 
