@@ -1,19 +1,19 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif; 
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .cabecalho {
     background-color: #e5e5e5;
-    padding: 15px 40px; 
+    padding: 15px 40px;
 }
 
 
 .container-cabecalho {
     display: flex;
-    justify-content: space-between; 
-    align-items: center; 
+    justify-content: space-between;
+    align-items: center;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -21,7 +21,7 @@ body {
 .logo-area {
     display: flex;
     align-items: center;
-    gap: 10px; 
+    gap: 10px;
 }
 
 .logo-area img {
@@ -30,7 +30,7 @@ body {
 }
 
 .titulo-xhopii {
-    color: #ee4d2d; 
+    color: #ee4d2d;
     font-size: 24px;
     font-weight: bold;
 }
@@ -38,17 +38,17 @@ body {
 .titulo-entre {
     font-size: 20px;
     color: #333;
-    margin-left: 10px; 
+    margin-left: 10px;
 }
 
 .link-ajuda {
-    color: #ee4d2d; 
-    text-decoration: none; 
+    color: #ee4d2d;
+    text-decoration: none;
     font-size: 14px;
 }
 
 .centro-login {
-    background-color:#ee4d2d;
+    background-color: #ee4d2d;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,17 +64,17 @@ body {
 }
 
 .titulo-login {
-    text-align: center; 
+    text-align: center;
     margin-bottom: 30px;
     font-size: 20px;
     color: #333;
-    font-weight: normal; 
+    font-weight: normal;
 }
 
 .formulario-login {
     display: flex;
     flex-direction: column;
-    gap: 25px; 
+    gap: 25px;
 }
 
 .formulario-login input {
@@ -83,13 +83,13 @@ body {
     border: 1px solid #e5e5e5;
     border-radius: 2px;
     font-size: 14px;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 .btn-entrar {
     width: 100%;
     padding: 12px;
-    background-color: #ee4d2d; 
+    background-color: #ee4d2d;
     color: #fff;
     border: none;
     border-radius: 2px;
@@ -100,14 +100,14 @@ body {
 
 .links-auxiliares {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     margin-top: 15px;
     font-size: 12px;
 }
 
 .links-auxiliares a {
-    text-decoration: none; 
-    color: #0055b3; 
+    text-decoration: none;
+    color: #0055b3;
 }
 
 .divisor-ou {
@@ -122,14 +122,14 @@ body {
 .divisor-ou::before,
 .divisor-ou::after {
     content: "";
-    flex: 1; 
+    flex: 1;
     border-bottom: 1px solid #e5e5e5;
     margin: 0 10px;
 }
 
 .botoes-sociais {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
+    grid-template-columns: repeat(3, 1fr);
     gap: 10px;
 }
 
@@ -160,7 +160,7 @@ body {
 }
 
 .novo-cadastro a {
-    color: #ee4d2d; 
+    color: #ee4d2d;
     text-decoration: none;
 }
 
@@ -184,12 +184,12 @@ body {
     display: flex;
     align-items: center;
     margin-bottom: 30px;
-    position: relative; 
+    position: relative;
 }
 
 .topo-cartao-redefinir a {
     position: absolute;
-    left: 0; 
+    left: 0;
 }
 
 .topo-cartao-redefinir img {
@@ -198,7 +198,7 @@ body {
 }
 
 .topo-cartao-redefinir h2 {
-    flex: 1; 
+    flex: 1;
     text-align: center;
     font-size: 18px;
     color: #333;
@@ -209,18 +209,18 @@ body {
 .btn-entrar {
     width: 100%;
     padding: 12px;
-    background-color: #ee4d2d; 
+    background-color: #ee4d2d;
     color: #fff;
-    border: 1px solid #333; 
+    border: 1px solid #333;
     border-radius: 2px;
     font-size: 14px;
     cursor: pointer;
     margin-top: 10px;
-    transition: opacity 0.2s ease-in-out; 
+    transition: opacity 0.2s ease-in-out;
 }
 
 .btn-entrar:hover {
-    opacity: 0.85; 
+    opacity: 0.85;
 }
 
 
@@ -273,7 +273,8 @@ body {
     gap: 10px;
 }
 
-.btn-seguir, .btn-chat {
+.btn-seguir,
+.btn-chat {
     padding: 5px 15px;
     border: 1px solid #fff;
     background: transparent;
@@ -309,7 +310,7 @@ body {
 
 .grade-produtos {
     display: grid;
-    grid-template-columns: repeat(5, 1fr); 
+    grid-template-columns: repeat(5, 1fr);
     gap: 15px;
     margin-top: 15px;
 }
@@ -325,7 +326,7 @@ body {
 
 .cartao-produto:hover {
     transform: translateY(-3px);
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .cartao-produto img {
@@ -356,9 +357,9 @@ body {
     padding: 8px;
     cursor: pointer;
     border-radius: 2px;
-    display: block; 
-    text-align: center; 
-    text-decoration: none; 
+    display: block;
+    text-align: center;
+    text-decoration: none;
     box-sizing: border-box;
 }
 
@@ -368,7 +369,7 @@ body {
     background-color: #fff;
     padding: 20px;
     border-radius: 4px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .container-cupons h2 {
@@ -392,7 +393,7 @@ body {
     border-radius: 4px;
     height: 100px;
     overflow: hidden;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
 .cupom-esquerda {
@@ -404,21 +405,21 @@ body {
     color: #fff;
     font-weight: bold;
     text-align: center;
-    border-right: 2px dashed #fff; 
+    border-right: 2px dashed #fff;
 }
 
 .frete-gratis {
-    background-color: #00bfa5; 
+    background-color: #00bfa5;
 }
 
 .desconto-fixo {
-    background-color: #ee4d2d; 
+    background-color: #ee4d2d;
 }
 
 .cupom-esquerda img {
     width: 30px;
     margin-bottom: 5px;
-    filter: brightness(0) invert(1); 
+    filter: brightness(0) invert(1);
 }
 
 .cupom-direita {
@@ -508,18 +509,20 @@ body {
 }
 
 .menu-laranja {
-    background-color: #ff7337; 
+    background-color: #ff7337;
     padding: 15px 0;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
 }
+
 .menu-laranja a {
-    color: #fff; 
+    color: #fff;
     text-decoration: none;
     font-size: 14px;
 }
+
 .menu-laranja a:hover {
     text-decoration: underline;
 }
@@ -534,12 +537,12 @@ body {
     max-width: 1000px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: auto 1fr; 
+    grid-template-columns: auto 1fr;
     gap: 50px;
 }
 
 .galeria-produto {
-    display: flex; 
+    display: flex;
     gap: 15px;
 }
 
@@ -558,7 +561,7 @@ body {
 }
 
 .miniaturas img.miniatura-ativa {
-    border: 2px solid #ee4d2d; 
+    border: 2px solid #ee4d2d;
 }
 
 .imagem-destaque img {
@@ -650,7 +653,7 @@ body {
     background-color: #fff;
     padding: 30px;
     border-radius: 4px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
 .container-tabela h2 {
@@ -694,9 +697,20 @@ body {
     background-color: #fbfbfb;
 }
 
-.colunas-clientes { grid-template-columns: 2fr 2fr 1fr 1fr 1fr; gap: 15px; }
-.colunas-funcionarios { grid-template-columns: 2fr 2fr 2fr 1fr; gap: 15px; }
-.colunas-produtos { grid-template-columns: 80px 3fr 1fr 1fr 1fr; gap: 15px; }
+.colunas-clientes {
+    grid-template-columns: 2fr 2fr 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.colunas-funcionarios {
+    grid-template-columns: 2fr 2fr 2fr 1fr;
+    gap: 15px;
+}
+
+.colunas-produtos {
+    grid-template-columns: 80px 3fr 1fr 1fr 1fr;
+    gap: 15px;
+}
 
 .miniatura-tabela {
     width: 50px;
@@ -707,7 +721,7 @@ body {
 }
 
 .acoes-tabela {
-    display: flex; 
+    display: flex;
     gap: 8px;
 }
 
@@ -722,18 +736,23 @@ body {
     text-align: center;
 }
 
-.btn-editar { background-color: #0055b3; }
-.btn-excluir { background-color: #ee4d2d; }
+.btn-editar {
+    background-color: #0055b3;
+}
+
+.btn-excluir {
+    background-color: #ee4d2d;
+}
 
 .centro-vitrine {
-    background-color: #e5e5e5; 
+    background-color: #e5e5e5;
     min-height: 60vh;
 }
 
 .container-vitrine {
     max-width: 1200px;
     margin: 0 auto;
-    background-color: #fbfbfb; 
+    background-color: #fbfbfb;
     padding: 30px;
 }
 
@@ -763,7 +782,7 @@ body {
 }
 
 .cartao-vitrine:hover {
-    border: 1px solid #ee4d2d; 
+    border: 1px solid #ee4d2d;
 }
 
 .cartao-vitrine img {
@@ -779,14 +798,16 @@ body {
     line-height: 1.4;
 }
 
-.vitrine-fabricante, .vitrine-descricao {
+.vitrine-fabricante,
+.vitrine-descricao {
     font-size: 10px;
     color: #999;
     margin: 0 0 8px 0;
     line-height: 1.4;
 }
 
-.vitrine-fabricante strong, .vitrine-descricao strong {
+.vitrine-fabricante strong,
+.vitrine-descricao strong {
     color: #666;
     font-weight: normal;
 }
@@ -795,7 +816,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: auto; 
+    margin-top: auto;
     padding-top: 10px;
 }
 
@@ -810,23 +831,53 @@ body {
     font-size: 10px;
 }
 
+.hero-home {
+    max-width: 1200px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+}
 
+.hero-carousel-img {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    display: block;
+    border-radius: 4px;
+    background-color: #ef4123;
+}
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(40%);
+    width: 22px;
+    height: 22px;
+}
 
+.banner-promocional {
+    max-width: 1200px;
+    margin: 15px auto 0;
+    padding: 0 20px;
+}
 
+.banner-promocional img {
+    width: 100%;
+    display: block;
+    border-radius: 4px;
+}
 
+.logo-area-branca {
+    text-decoration: none;
+    color: inherit;
+}
 
+.cartao-vitrine {
+    text-decoration: none;
+    color: inherit;
+}
 
-
-
-
-
-
-
-
-
-
-
+.centro-vitrine-home {
+    background-color: #ffffff;
+}
 
 
 .rodape {
@@ -838,7 +889,7 @@ body {
 
 .container-rodape {
     display: grid;
-    grid-template-columns: repeat(5, 1fr); 
+    grid-template-columns: repeat(5, 1fr);
     gap: 20px;
     max-width: 1200px;
     margin: 0 auto;
@@ -865,7 +916,7 @@ body {
     text-decoration: none;
     color: #666;
     font-size: 12px;
-    display: flex; 
+    display: flex;
     align-items: center;
     gap: 8px;
 }
@@ -881,9 +932,9 @@ body {
 
 .icones-pagamento {
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     gap: 8px;
-    max-width: 200px; 
+    max-width: 200px;
 }
 
 .icones-pagamento img {
@@ -892,7 +943,7 @@ body {
     background-color: #fff;
     padding: 4px;
     border-radius: 2px;
-    box-shadow: 0 1px 1px rgba(0,0,0,0.1); 
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 
 .codigo-qr img {
@@ -900,13 +951,13 @@ body {
     height: auto;
     background-color: #fff;
     padding: 4px;
-    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
     margin-bottom: 10px;
 }
 
 .links-aplicativo {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     gap: 8px;
 }
 
