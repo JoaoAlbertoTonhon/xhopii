@@ -1253,6 +1253,70 @@ body {
     opacity: 0.9;
 }
 
+.area-cadastro-loja {
+    background-color: #cfcfcf;
+    min-height: 320px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.cartao-cadastro-loja {
+    background-color: #fff;
+    width: 400px;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+
+.cartao-cadastro-loja h2 {
+    color: #ee4d2d;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    margin: 0 0 25px 0;
+}
+
+.formulario-cadastro-loja {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.formulario-cadastro-loja input[type="text"],
+.formulario-cadastro-loja input[type="email"] {
+    width: 100%;
+    height: 32px;
+    padding: 7px 10px;
+    box-sizing: border-box;
+    border: 1px solid #e5e5e5;
+    border-radius: 1px;
+    font-size: 11px;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.formulario-cadastro-loja input::placeholder {
+    color: #999;
+}
+
+.btn-cadastrar-loja {
+    width: 100%;
+    height: 32px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 1px;
+    background-color: #ff512f;
+    color: #fff;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.btn-cadastrar-loja:hover {
+    opacity: 0.9;
+}
 
 .rodape {
     background-color: #e5e5e5;
