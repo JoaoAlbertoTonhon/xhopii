@@ -879,6 +879,105 @@ body {
     background-color: #ffffff;
 }
 
+.area-cadastro-produto {
+    background-color: #cfcfcf;
+    min-height: 430px;
+    padding: 25px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.cartao-cadastro-produto {
+    background-color: #fff;
+    width: 400px;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+
+.cartao-cadastro-produto h2 {
+    color: #ee4d2d;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    margin: 0 0 25px 0;
+}
+
+.formulario-cadastro-produto {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.formulario-cadastro-produto input[type="text"],
+.formulario-cadastro-produto input[type="number"] {
+    width: 100%;
+    height: 32px;
+    padding: 7px 10px;
+    box-sizing: border-box;
+    border: 1px solid #e5e5e5;
+    border-radius: 1px;
+    font-size: 11px;
+    color: #555;
+}
+
+.formulario-cadastro-produto input::placeholder {
+    color: #999;
+}
+
+.texto-foto-produto {
+    color: #ee4d2d;
+    font-size: 10px;
+    text-align: center;
+    margin: 5px 0 0 0;
+}
+
+.campo-foto-produto {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 10px;
+    color: #555;
+}
+
+.campo-foto-produto label {
+    border: 1px solid #ff6b4a;
+    color: #ee4d2d;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 2px;
+    white-space: nowrap;
+}
+
+.campo-foto-produto input[type="file"] {
+    display: none;
+}
+
+.campo-foto-produto span {
+    color: #777;
+    white-space: nowrap;
+}
+
+.btn-cadastrar-produto {
+    width: 100%;
+    height: 32px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 1px;
+    background-color: #ff512f;
+    color: #fff;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.btn-cadastrar-produto:hover {
+    opacity: 0.9;
+}
+
+
+
 
 .rodape {
     background-color: #e5e5e5;
